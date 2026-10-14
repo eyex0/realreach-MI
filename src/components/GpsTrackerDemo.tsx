@@ -19,7 +19,7 @@ const CHECKPOINTS: RouteCheckpoint[] = [
     y: 28,
     address: '42 Anglesea Road, Ipswich (IP1 2)',
     time: '10:14:22 GMT',
-    photoUrl: '/src/assets/images/hero_leaflet_distribution_1791901989962.jpg',
+    photoUrl: '/images/home/phone.avif',
     status: 'delivered',
     letterboxType: 'Front door brass letterbox',
   },
@@ -29,7 +29,7 @@ const CHECKPOINTS: RouteCheckpoint[] = [
     y: 36,
     address: '18 Berners Street, Ipswich (IP1 3)',
     time: '10:28:45 GMT',
-    photoUrl: '/src/assets/images/distributor_portrait_1791901991293.jpg',
+    photoUrl: '/images/home/who-its-for/person.svg',
     status: 'delivered',
     letterboxType: 'Townhouse entrance slot',
   },
@@ -39,7 +39,7 @@ const CHECKPOINTS: RouteCheckpoint[] = [
     y: 52,
     address: '55 St Matthews Street, Ipswich (IP1 4)',
     time: '10:46:10 GMT',
-    photoUrl: '/src/assets/images/smart_flyer_qr_1791901990096.jpg',
+    photoUrl: '/images/home/advantages/qr.svg',
     status: 'delivered',
     letterboxType: 'Secured residential lobby drop',
   },
@@ -49,7 +49,7 @@ const CHECKPOINTS: RouteCheckpoint[] = [
     y: 74,
     address: '12 Civic Drive, Ipswich (IP1 1)',
     time: '11:05:18 GMT',
-    photoUrl: '/src/assets/images/gps_app_mockup_1791901990810.jpg',
+    photoUrl: '/images/home/app/gps.svg',
     status: 'delivered',
     letterboxType: 'External wall mounted mailbox',
   },
@@ -267,7 +267,7 @@ export const GpsTrackerDemo: React.FC = () => {
             <div className="bg-slate-950 rounded-2xl border border-slate-800 overflow-hidden shadow-xl">
               <div className="relative h-44 overflow-hidden">
                 <img
-                  src="/src/assets/images/gps_app_mockup_1791901990810.jpg"
+                  src="/images/home/phone.avif"
                   alt="Marketize distributor GPS tracking mobile app"
                   className="w-full h-full object-cover object-center"
                   referrerPolicy="no-referrer"

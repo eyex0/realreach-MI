@@ -125,7 +125,7 @@ export const BecomeDistributor: React.FC<BecomeDistributorProps> = ({ onOpenDist
           <div className="lg:col-span-5 relative">
             <div className="rounded-2xl overflow-hidden border border-slate-200 bg-white shadow-xl relative">
               <img
-                src="/src/assets/images/distributor_portrait_1791901991293.jpg"
+                src="/images/home/who-its-for/person.svg"
                 alt="Marketize verified delivery professional"
                 className="w-full h-80 sm:h-96 lg:h-[480px] object-cover"
                 referrerPolicy="no-referrer"
