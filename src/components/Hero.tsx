@@ -30,7 +30,7 @@ export const Hero: React.FC<HeroProps> = ({
             <div className="inline-flex items-center gap-2 bg-red-500 border border-red-500 rounded-full px-3 py-1.5 sm:px-4 sm:py-2">
               <span className="w-2 h-2 bg-white rounded-full shrink-0 animate-pulse"></span>
               <span className="text-xs sm:text-sm font-medium text-white">
-                UK's First GPS-Verified Distribution Marketplace
+                Milan's First GPS-Verified Distribution Marketplace
               </span>
             </div>
 
@@ -63,12 +63,12 @@ export const Hero: React.FC<HeroProps> = ({
               <div className="flex -space-x-2 shrink-0">
                 <img
                   src="/images/home/icons/AvatarGroup.png"
-                  alt="Trusted users across the UK"
+                  alt="Trusted users across Milan, Italy"
                   className="w-36 sm:w-50 h-auto"
                 />
               </div>
               <p className="text-sm text-gray-700 font-medium max-w-50 leading-snug">
-                Trusted by 500+ businesses and distributors across the UK
+                Trusted by 500+ businesses and distributors across Milan, Italy
               </p>
             </div>
           </div>
@@ -127,7 +127,7 @@ export const Hero: React.FC<HeroProps> = ({
                     ESCROW-LIKE PAYMENT
                   </p>
                   <p className="font-medium text-lg sm:text-[20px] leading-7.5 tracking-[0] text-gray-900">
-                    £480 protected
+                    €480 protected
                   </p>
                 </div>
               </div>

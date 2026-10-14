@@ -11,7 +11,7 @@ export const DistributorModal: React.FC<DistributorModalProps> = ({ isOpen, onCl
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
-  const [postcodeArea, setPostcodeArea] = useState('London (Central)');
+  const [CAPArea, setCAPArea] = useState('Milan (Central)');
   const [transportType, setTransportType] = useState('walking');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -59,7 +59,7 @@ export const DistributorModal: React.FC<DistributorModalProps> = ({ isOpen, onCl
             </div>
             <h4 className="text-xl font-bold text-gray-900">Application Received!</h4>
             <p className="text-xs text-gray-600 leading-relaxed max-w-md mx-auto">
-              Thank you, <strong>{fullName}</strong>. We've sent your free Marketize GPS App activation instructions to <strong>{email}</strong>. Our local courier operations team will verify your territory in <strong>{postcodeArea}</strong>.
+              Thank you, <strong>{fullName}</strong>. We've sent your free Marketize GPS App activation instructions to <strong>{email}</strong>. Our local courier operations team will verify your territory in <strong>{CAPArea}</strong>.
             </p>
             <button
               onClick={handleReset}
@@ -142,18 +142,18 @@ export const DistributorModal: React.FC<DistributorModalProps> = ({ isOpen, onCl
                   <label htmlFor="distributor-location" className="block text-xs font-medium text-gray-700 mb-1">Preferred Location</label>
                   <select
                     id="distributor-location"
-                    value={postcodeArea}
-                    onChange={(e) => setPostcodeArea(e.target.value)}
+                    value={CAPArea}
+                    onChange={(e) => setCAPArea(e.target.value)}
                     className="w-full px-3 py-2 rounded-xl border border-gray-200 text-xs focus:outline-none focus:ring-2 focus:ring-red-500 bg-white"
                   >
-                    <option value="London (Central)">London (Greater London)</option>
-                    <option value="Manchester">Manchester &amp; Salford</option>
-                    <option value="Bristol">Bristol &amp; Bath</option>
-                    <option value="Birmingham">Birmingham &amp; West Mids</option>
-                    <option value="Leeds">Leeds &amp; Yorkshire</option>
-                    <option value="Edinburgh">Edinburgh &amp; Lothian</option>
-                    <option value="Cardiff">Cardiff &amp; South Wales</option>
-                    <option value="Ipswich & East Anglia">Ipswich &amp; East Anglia</option>
+                    <option value="Milan (Central)">Milan (Milan Metropolitan Area)</option>
+                    <option value="Bergamo">Bergamo &amp; Salford</option>
+                    <option value="Pavia">Pavia &amp; Bath</option>
+                    <option value="Brescia">Brescia &amp; West Mids</option>
+                    <option value="Varese">Varese &amp; Yorkshire</option>
+                    <option value="Lodi">Lodi &amp; Lothian</option>
+                    <option value="Sesto San Giovanni">Sesto San Giovanni &amp; South Wales</option>
+                    <option value="Milan & Brianza">Milan &amp; Brianza</option>
                   </select>
                 </div>
 

@@ -39,8 +39,8 @@ export const ComparisonTable: React.FC = () => {
     },
     {
       feature: 'Demographic targeting',
-      marketize: { text: 'Postcode-level', status: 'check' },
-      traditional: { text: 'Limited, some postcode level', status: 'plain' },
+      marketize: { text: 'CAP-level', status: 'check' },
+      traditional: { text: 'Limited, some CAP level', status: 'plain' },
       directMail: { text: 'Address-level', status: 'check' },
       royalMail: { text: '', status: 'cross' },
     },
@@ -92,7 +92,7 @@ export const ComparisonTable: React.FC = () => {
             How we stack up
           </h2>
           <p className="card-subtext max-w-md mx-auto">
-            See exactly what sets Marketize apart from traditional distribution companies, direct mail, and Royal Mail drops.
+            See exactly what sets Marketize apart from traditional distribution companies, direct mail, and traditional postal drops.
           </p>
         </div>
 
@@ -114,7 +114,7 @@ export const ComparisonTable: React.FC = () => {
                     Direct Mail
                   </th>
                   <th className="p-3 sm:p-5 text-sm sm:text-[18px] leading-[27px] font-medium tracking-normal text-gray-600 text-center w-36 sm:w-44">
-                    Royal Mail Door to Door
+                    Traditional Postal Drops
                   </th>
                 </tr>
               </thead>
@@ -168,7 +168,7 @@ export const ComparisonTable: React.FC = () => {
                         )}
                       </td>
 
-                      {/* Royal Mail Door to Door */}
+                      {/* Traditional Postal Drops */}
                       <td className="p-3 sm:p-5 text-center transition-colors group-hover:bg-gray-50 border-t border-gray-100">
                         {row.royalMail.status === 'cross' ? (
                           <span className="text-xs sm:text-sm text-gray-600 inline-flex items-center justify-center">

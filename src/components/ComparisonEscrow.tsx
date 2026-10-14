@@ -128,7 +128,7 @@ export const ComparisonEscrow: React.FC<ComparisonEscrowProps> = ({ onOpenCampai
                   <td className="py-4 px-6 font-bold text-slate-900">Letterbox Count Source</td>
                   <td className="py-4 px-6 bg-emerald-50/30 font-semibold text-slate-900 flex items-center gap-2">
                     <Check className="w-4 h-4 text-emerald-600 shrink-0" />
-                    <span>Royal Mail PAF dataset filtered for deliverable doors</span>
+                    <span>Italian postal registry dataset filtered for deliverable doors</span>
                   </td>
                   <td className="py-4 px-6 text-slate-500 flex items-center gap-2">
                     <X className="w-4 h-4 text-red-500 shrink-0" />
@@ -152,7 +152,7 @@ export const ComparisonEscrow: React.FC<ComparisonEscrowProps> = ({ onOpenCampai
                   <td className="py-4 px-6 font-bold text-slate-900">Response Attribution</td>
                   <td className="py-4 px-6 bg-emerald-50/30 font-semibold text-slate-900 flex items-center gap-2">
                     <Check className="w-4 h-4 text-emerald-600 shrink-0" />
-                    <span>Built-in QR Studio & Postcode UTM Tracking</span>
+                    <span>Built-in QR Studio & CAP UTM Tracking</span>
                   </td>
                   <td className="py-4 px-6 text-slate-500 flex items-center gap-2">
                     <X className="w-4 h-4 text-red-500 shrink-0" />

@@ -13,7 +13,7 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
   onClose,
   initialSector,
 }) => {
-  const [selectedPostcode, setSelectedPostcode] = useState(initialSector || 'IP1 1');
+  const [selectedCAP, setSelectedCAP] = useState(initialSector || '20121');
   const [distributionType, setDistributionType] = useState<'solus' | 'shared'>('solus');
   const [quantity, setQuantity] = useState(4000);
   const [businessName, setBusinessName] = useState('');
@@ -27,7 +27,7 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
 
   if (!isOpen) return null;
 
-  const currentSector = POSTCODE_SECTORS.find((s) => s.code === selectedPostcode) || POSTCODE_SECTORS[0];
+  const currentSector = POSTCODE_SECTORS.find((s) => s.code === selectedCAP) || POSTCODE_SECTORS[0];
   const ratePer1000 = distributionType === 'solus' ? 65.0 : 42.0;
   const escrowAmount = Math.round(((quantity / 1000) * ratePer1000 + 19.5) * 100) / 100;
 
@@ -97,7 +97,7 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
               </div>
               <div className="flex justify-between text-gray-600">
                 <span>Total Escrow Deposit:</span>
-                <span className="text-gray-900 font-bold text-sm">£{escrowAmount.toFixed(2)}</span>
+                <span className="text-gray-900 font-bold text-sm">€{escrowAmount.toFixed(2)}</span>
               </div>
             </div>
 
@@ -118,8 +118,8 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
                 <label htmlFor="campaign-sector" className="block text-xs font-medium text-gray-700 mb-1">Target Sector</label>
                 <select
                   id="campaign-sector"
-                  value={selectedPostcode}
-                  onChange={(e) => setSelectedPostcode(e.target.value)}
+                  value={selectedCAP}
+                  onChange={(e) => setSelectedCAP(e.target.value)}
                   className="w-full px-3 py-2 rounded-xl border border-gray-200 text-xs focus:outline-none focus:ring-2 focus:ring-red-500 bg-white"
                 >
                   {POSTCODE_SECTORS.map((sec) => (
@@ -184,7 +184,7 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
             <div className="p-3.5 bg-red-50/50 rounded-2xl border border-red-100 flex items-center justify-between">
               <div>
                 <div className="text-[11px] text-gray-500 uppercase tracking-wider">Protected Escrow Total</div>
-                <div className="text-lg font-bold text-gray-900">£{escrowAmount.toFixed(2)}</div>
+                <div className="text-lg font-bold text-gray-900">€{escrowAmount.toFixed(2)}</div>
               </div>
               <div className="text-right text-[11px] text-green-700 bg-green-50 px-2.5 py-1 rounded-full border border-green-200 font-medium">
                 ✓ Held by Stripe via Marketize
@@ -225,7 +225,7 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="sarah@acme.co.uk"
+                  placeholder="sarah@acme.it"
                   className="w-full px-3 py-2 rounded-xl border border-gray-200 text-xs focus:outline-none focus:ring-2 focus:ring-red-500"
                 />
               </div>
@@ -261,7 +261,7 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
                 disabled={isSubmitting}
                 className="w-full py-3 bg-red-500 hover:bg-red-600 active:bg-red-700 text-white font-medium rounded-full text-sm transition-all shadow-md cursor-pointer disabled:opacity-50"
               >
-                {isSubmitting ? 'Verifying with Stripe Escrow...' : `Lock in Escrow (£${escrowAmount.toFixed(2)}) & Broadcast`}
+                {isSubmitting ? 'Verifying with Stripe Escrow...' : `Lock in Escrow (€${escrowAmount.toFixed(2)}) & Broadcast`}
               </button>
             </div>
           </form>

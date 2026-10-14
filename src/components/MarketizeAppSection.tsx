@@ -60,7 +60,7 @@ export const MarketizeAppSection: React.FC = () => {
                     </p>
                   </div>
                   <p className="card-subtext leading-relaxed !text-sm sm:!text-base">
-                    Distributors view assigned postcode sectors and optimized street routes directly on their mobile screen. Clear boundaries, no overlapping or missed streets.
+                    Distributors view assigned CAP sectors and optimized street routes directly on their mobile screen. Clear boundaries, no overlapping or missed streets.
                   </p>
                 </div>
               </div>

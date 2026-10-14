@@ -12,14 +12,14 @@ interface RouteCheckpoint {
 }
 
 const SAMPLE_ROUTE: RouteCheckpoint[] = [
-  { id: 1, x: 14, y: 78, address: '12 Princes St, Ipswich IP1', time: '09:14 AM', status: 'delivered' },
-  { id: 2, x: 22, y: 68, address: '18 Princes St, Ipswich IP1', time: '09:21 AM', status: 'delivered' },
-  { id: 3, x: 30, y: 55, address: '4 Friars Road, Ipswich IP1', time: '09:34 AM', status: 'photographed', photoUrl: '/images/home/phone.avif' },
-  { id: 4, x: 42, y: 48, address: '16 Friars Road, Ipswich IP1', time: '09:47 AM', status: 'delivered' },
-  { id: 5, x: 55, y: 40, address: '28 Curriers Lane, Ipswich IP1', time: '10:02 AM', status: 'delivered' },
-  { id: 6, x: 68, y: 32, address: '8 Franciscan Way, Ipswich IP1', time: '10:18 AM', status: 'photographed', photoUrl: '/images/home/phone.avif' },
-  { id: 7, x: 79, y: 25, address: '22 Wolsey Street, Ipswich IP1', time: '10:35 AM', status: 'delivered' },
-  { id: 8, x: 88, y: 16, address: '35 St Nicholas St, Ipswich IP1', time: '10:52 AM', status: 'delivered' },
+  { id: 1, x: 14, y: 78, address: '12 Princes St, Milan IP1', time: '09:14 AM', status: 'delivered' },
+  { id: 2, x: 22, y: 68, address: '18 Princes St, Milan IP1', time: '09:21 AM', status: 'delivered' },
+  { id: 3, x: 30, y: 55, address: '4 Friars Road, Milan IP1', time: '09:34 AM', status: 'photographed', photoUrl: '/images/home/phone.avif' },
+  { id: 4, x: 42, y: 48, address: '16 Friars Road, Milan IP1', time: '09:47 AM', status: 'delivered' },
+  { id: 5, x: 55, y: 40, address: '28 Curriers Lane, Milan IP1', time: '10:02 AM', status: 'delivered' },
+  { id: 6, x: 68, y: 32, address: '8 Franciscan Way, Milan IP1', time: '10:18 AM', status: 'photographed', photoUrl: '/images/home/phone.avif' },
+  { id: 7, x: 79, y: 25, address: '22 Wolsey Street, Milan IP1', time: '10:35 AM', status: 'delivered' },
+  { id: 8, x: 88, y: 16, address: '35 St Nicholas St, Milan IP1', time: '10:52 AM', status: 'delivered' },
 ];
 
 interface GpsModalProps {

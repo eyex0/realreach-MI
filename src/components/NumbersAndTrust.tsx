@@ -70,7 +70,7 @@ export const NumbersAndTrust: React.FC = () => {
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-900">Mike D.</p>
-                <p className="text-xs text-gray-500">Freelance Distributor, Manchester</p>
+                <p className="text-xs text-gray-500">Freelance Distributor, Bergamo</p>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ export const NumbersAndTrust: React.FC = () => {
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-900">Rachel P.</p>
-                <p className="text-xs text-gray-500">Leaflet Distribution Agency, Bristol</p>
+                <p className="text-xs text-gray-500">Leaflet Distribution Agency, Pavia</p>
               </div>
             </div>
           </div>

@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 
 export const TrustedCities: React.FC = () => {
-  const [selectedCity, setSelectedCity] = useState<string>('London');
+  const [selectedCity, setSelectedCity] = useState<string>('Milan');
 
   const cities = [
-    { name: 'London', households: '3,800,000+', activeCouriers: '140+' },
-    { name: 'Manchester', households: '1,200,000+', activeCouriers: '68+' },
-    { name: 'Bristol', households: '470,000+', activeCouriers: '35+' },
-    { name: 'Birmingham', households: '1,150,000+', activeCouriers: '52+' },
-    { name: 'Leeds', households: '810,000+', activeCouriers: '41+' },
-    { name: 'Edinburgh', households: '530,000+', activeCouriers: '29+' },
-    { name: 'Cardiff', households: '365,000+', activeCouriers: '24+' },
+    { name: 'Milan', households: '3,800,000+', activeCouriers: '140+' },
+    { name: 'Bergamo', households: '1,200,000+', activeCouriers: '68+' },
+    { name: 'Pavia', households: '470,000+', activeCouriers: '35+' },
+    { name: 'Brescia', households: '1,150,000+', activeCouriers: '52+' },
+    { name: 'Varese', households: '810,000+', activeCouriers: '41+' },
+    { name: 'Lodi', households: '530,000+', activeCouriers: '29+' },
+    { name: 'Sesto San Giovanni', households: '365,000+', activeCouriers: '24+' },
   ];
 
   return (

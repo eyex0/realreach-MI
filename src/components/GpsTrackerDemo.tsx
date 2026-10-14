@@ -17,7 +17,7 @@ const CHECKPOINTS: RouteCheckpoint[] = [
     id: 1,
     x: 18,
     y: 28,
-    address: '42 Anglesea Road, Ipswich (IP1 2)',
+    address: '42 Anglesea Road, Milan (20122)',
     time: '10:14:22 GMT',
     photoUrl: '/images/home/phone.avif',
     status: 'delivered',
@@ -27,7 +27,7 @@ const CHECKPOINTS: RouteCheckpoint[] = [
     id: 2,
     x: 42,
     y: 36,
-    address: '18 Berners Street, Ipswich (IP1 3)',
+    address: '18 Berners Street, Milan (IP1 3)',
     time: '10:28:45 GMT',
     photoUrl: '/images/home/who-its-for/person.svg',
     status: 'delivered',
@@ -37,7 +37,7 @@ const CHECKPOINTS: RouteCheckpoint[] = [
     id: 3,
     x: 65,
     y: 52,
-    address: '55 St Matthews Street, Ipswich (IP1 4)',
+    address: '55 St Matthews Street, Milan (IP1 4)',
     time: '10:46:10 GMT',
     photoUrl: '/images/home/advantages/qr.svg',
     status: 'delivered',
@@ -47,7 +47,7 @@ const CHECKPOINTS: RouteCheckpoint[] = [
     id: 4,
     x: 82,
     y: 74,
-    address: '12 Civic Drive, Ipswich (IP1 1)',
+    address: '12 Civic Drive, Milan (20121)',
     time: '11:05:18 GMT',
     photoUrl: '/images/home/app/gps.svg',
     status: 'delivered',
@@ -125,7 +125,7 @@ export const GpsTrackerDemo: React.FC = () => {
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping" />
                 <span className="font-bold text-white">Live Round #2841</span>
                 <span className="text-slate-400">·</span>
-                <span className="text-slate-300">Ipswich Central (IP1)</span>
+                <span className="text-slate-300">Milan Central (IP1)</span>
               </div>
 
               <div className="flex items-center gap-4 text-slate-400">

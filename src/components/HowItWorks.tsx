@@ -40,7 +40,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({
                 Set Target & Count Letterboxes
               </h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Select your target postcode sectors (from 500 leaflets upwards). Our Royal Mail PAF tool counts exact deliverable doors, filtering out commercial units and inaccessible buildings.
+                Select your target CAP sectors (from 500 leaflets upwards). Our Italian postal registry counts exact deliverable doors, filtering out commercial units and inaccessible buildings.
               </p>
             </div>
             <div className="pt-4 mt-4 border-t border-slate-200/80 text-[11px] font-semibold text-emerald-700">
@@ -119,7 +119,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({
               Ready to launch your first GPS-verified campaign?
             </h4>
             <p className="text-xs text-slate-600">
-              Minimum campaign size starting from just 500 leaflets anywhere in the UK.
+              Minimum campaign size starting from just 500 leaflets anywhere in Milan, Italy.
             </p>
           </div>
           <div className="flex items-center gap-3 shrink-0">

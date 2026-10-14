@@ -33,7 +33,7 @@ export const OperatingSystem: React.FC<OperatingSystemProps> = ({ onCardClick })
     {
       icon: '/images/home/included/demographic.svg',
       title: 'Demographic Targeting',
-      desc: 'Filter postcode sectors by household profile - young families, homeowners, renters, income bands, etc. Focus your budget where it converts.',
+      desc: 'Filter CAP sectors by household profile - young families, homeowners, renters, income bands, etc. Focus your budget where it converts.',
       comingSoon: false,
     },
     {

@@ -69,7 +69,7 @@ export const BecomeDistributor: React.FC<BecomeDistributorProps> = ({ onOpenDist
                 <span className="font-bold text-slate-900 uppercase tracking-wider">
                   Distributor Earnings Calculator
                 </span>
-                <span className="text-slate-500 font-medium">Average UK Rate: ~£17.50/hr</span>
+                <span className="text-slate-500 font-medium">Average Milan Rate: ~€14.50/hr</span>
               </div>
 
               <div className="space-y-2">
@@ -94,13 +94,13 @@ export const BecomeDistributor: React.FC<BecomeDistributorProps> = ({ onOpenDist
                 <div>
                   <span className="text-[11px] text-slate-500 block">Estimated Weekly Take-Home</span>
                   <span className="font-mono-numbers text-xl sm:text-2xl font-black text-slate-900">
-                    £{weeklyEarnings.toLocaleString()}
+                    €{weeklyEarnings.toLocaleString()}
                   </span>
                 </div>
                 <div>
                   <span className="text-[11px] text-slate-500 block">Estimated Monthly Earnings</span>
                   <span className="font-mono-numbers text-xl sm:text-2xl font-black text-emerald-700">
-                    £{monthlyEarnings.toLocaleString()}
+                    €{monthlyEarnings.toLocaleString()}
                   </span>
                 </div>
               </div>
@@ -116,7 +116,7 @@ export const BecomeDistributor: React.FC<BecomeDistributorProps> = ({ onOpenDist
                 <ArrowRight className="w-4 h-4" />
               </button>
               <div className="mt-2 text-xs text-slate-500">
-                UK residents aged 18+ · Quick 2-minute identity verification
+                Milan residents aged 18+ · Quick 2-minute identity verification
               </div>
             </div>
           </div>

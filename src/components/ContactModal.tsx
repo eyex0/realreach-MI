@@ -65,15 +65,15 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
               {/* Official Contact Badges */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <a
-                  href="tel:03330154160"
+                  href="tel:+390212345678"
                   className="flex items-center gap-3 p-3.5 rounded-2xl bg-red-50/60 border border-red-100 hover:bg-red-100/60 transition-colors"
                 >
                   <div className="w-9 h-9 rounded-full bg-red-500 text-white flex items-center justify-center shrink-0">
                     <Phone className="w-4 h-4" />
                   </div>
                   <div>
-                    <div className="text-xs text-gray-500">Call Direct (UK Toll-Free)</div>
-                    <div className="text-sm font-bold text-gray-900">0333 015 4160</div>
+                    <div className="text-xs text-gray-500">Call Direct (Milan)</div>
+                    <div className="text-sm font-bold text-gray-900">+39 02 1234 5678</div>
                   </div>
                 </a>
 
@@ -83,7 +83,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
                   </div>
                   <div>
                     <div className="text-xs text-gray-500">Registered Head Office</div>
-                    <div className="text-xs font-semibold text-gray-900">50 Princes St, Ipswich IP1 1RJ</div>
+                    <div className="text-xs font-semibold text-gray-900">Via Dante 15, 20121 Milano MI</div>
                   </div>
                 </div>
               </div>
@@ -111,7 +111,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
                       required
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      placeholder="david@company.co.uk"
+                      placeholder="david@company.it"
                       className="w-full px-3.5 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-red-500"
                     />
                   </div>
@@ -141,7 +141,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
                     required
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    placeholder="Tell us your target postcodes, leaflet volume, or specific questions..."
+                    placeholder="Tell us your target CAP codes, leaflet volume, or specific questions..."
                     className="w-full px-3.5 py-2 rounded-xl border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-red-500"
                   ></textarea>
                 </div>

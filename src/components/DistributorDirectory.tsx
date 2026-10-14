@@ -9,7 +9,7 @@ interface DistributorDirectoryProps {
 export const DistributorDirectory: React.FC<DistributorDirectoryProps> = ({ onSelectDistributor }) => {
   const [selectedRegion, setSelectedRegion] = useState<string>('All');
 
-  const regions = ['All', 'Suffolk', 'Norfolk', 'Cambridge', 'Greater London'];
+  const regions = ['All', 'Lombardy', 'Brianza', 'Como', 'Milan Metropolitan Area'];
 
   const filteredDistributors = VERIFIED_DISTRIBUTORS.filter((d) => {
     if (selectedRegion === 'All') return true;
@@ -108,7 +108,7 @@ export const DistributorDirectory: React.FC<DistributorDirectoryProps> = ({ onSe
                   <div className="flex items-center justify-between">
                     <span>Base Delivery Rate:</span>
                     <span className="font-mono-numbers font-semibold text-slate-900">
-                      From £{dist.ratePerThousand}/1,000
+                      From €{dist.ratePerThousand}/1,000
                     </span>
                   </div>
                   <div className="flex items-center justify-between">
@@ -147,7 +147,7 @@ export const DistributorDirectory: React.FC<DistributorDirectoryProps> = ({ onSe
             </p>
             <div className="pt-2 border-t border-slate-100 text-xs">
               <strong className="text-slate-900 block">Marcus Vance</strong>
-              <span className="text-slate-500 text-[11px]">Senior Partner, Suffolk Prestige Properties</span>
+              <span className="text-slate-500 text-[11px]">Senior Partner, Lombardy Prestige Properties</span>
             </div>
           </div>
 
@@ -156,7 +156,7 @@ export const DistributorDirectory: React.FC<DistributorDirectoryProps> = ({ onSe
               {'★'.repeat(5)}
             </div>
             <p className="text-xs text-slate-600 italic leading-relaxed">
-              "With previous leaflet distributors we had complaints of dumped boxes in park bins. With Marketize, funds didn't leave escrow until GPS tracks were reviewed. We achieved 142 gym member sign-ups from our Norwich drop."
+              "With previous leaflet distributors we had complaints of dumped boxes in park bins. With Marketize, funds didn't leave escrow until GPS tracks were reviewed. We achieved 142 gym member sign-ups from our Monza drop."
             </p>
             <div className="pt-2 border-t border-slate-100 text-xs">
               <strong className="text-slate-900 block">Chloe Bennett</strong>
@@ -169,11 +169,11 @@ export const DistributorDirectory: React.FC<DistributorDirectoryProps> = ({ onSe
               {'★'.repeat(5)}
             </div>
             <p className="text-xs text-slate-600 italic leading-relaxed">
-              "The QR Code Studio combined with the postcode letterbox counting meant we could test two distinct offers in Cambridge. Real scans spiked on the exact days our distributor walked those specific roads."
+              "The QR Code Studio combined with the CAP letterbox counting meant we could test two distinct offers in Como. Real scans spiked on the exact days our distributor walked those specific roads."
             </p>
             <div className="pt-2 border-t border-slate-100 text-xs">
               <strong className="text-slate-900 block">Dr. Alistair Ross</strong>
-              <span className="text-slate-500 text-[11px]">Commercial Lead, BioCambridge Diagnostics</span>
+              <span className="text-slate-500 text-[11px]">Commercial Lead, BioComo Diagnostics</span>
             </div>
           </div>
         </div>

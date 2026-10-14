@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { POSTCODE_SECTORS, PostcodeSector } from '../data/sectors';
+import { POSTCODE_SECTORS, CAPSector } from '../data/sectors';
 import { Search, MapPin, Check, ArrowRight, Info, ShieldCheck } from 'lucide-react';
 
 interface LetterboxCalculatorProps {
@@ -7,7 +7,7 @@ interface LetterboxCalculatorProps {
 }
 
 export interface CampaignCalculationResult {
-  sector: PostcodeSector;
+  sector: CAPSector;
   distributionType: 'solus' | 'shared' | 'hand' | 'b2b';
   distributionTypeName: string;
   quantity: number;
@@ -20,7 +20,7 @@ export interface CampaignCalculationResult {
 }
 
 export const LetterboxCalculator: React.FC<LetterboxCalculatorProps> = ({ onBookCampaign }) => {
-  const [selectedSectorCode, setSelectedSectorCode] = useState<string>('IP1 1');
+  const [selectedSectorCode, setSelectedSectorCode] = useState<string>('20121');
   const [distributionType, setDistributionType] = useState<'solus' | 'shared' | 'hand' | 'b2b'>('solus');
   const [quantity, setQuantity] = useState<number>(3840);
   const [printOption, setPrintOption] = useState<'none' | 'a5_silk' | 'a6_heavy'>('none');
@@ -29,7 +29,7 @@ export const LetterboxCalculator: React.FC<LetterboxCalculatorProps> = ({ onBook
 
   const currentSector = POSTCODE_SECTORS.find((s) => s.code === selectedSectorCode) || POSTCODE_SECTORS[0];
 
-  const handleSelectSector = (sector: PostcodeSector) => {
+  const handleSelectSector = (sector: CAPSector) => {
     setSelectedSectorCode(sector.code);
     setQuantity(sector.letterboxes);
   };
@@ -98,16 +98,16 @@ export const LetterboxCalculator: React.FC<LetterboxCalculatorProps> = ({ onBook
               <div className="flex items-center justify-between mb-3">
                 <label className="text-sm font-bold text-slate-900 flex items-center gap-2">
                   <MapPin className="w-4 h-4 text-emerald-600" />
-                  Step 1: Select Postcode Sector
+                  Step 1: Select CAP Sector
                 </label>
-                <span className="text-xs text-slate-500 font-medium">UK Postcode Registry</span>
+                <span className="text-xs text-slate-500 font-medium">Milan CAP Registry</span>
               </div>
 
               <div className="relative mb-3">
                 <Search className="w-4 h-4 absolute left-3.5 top-3.5 text-slate-400" />
                 <input
                   type="text"
-                  placeholder="Filter by postcode or city (e.g. IP1, NR1, London, Cambridge)..."
+                  placeholder="Filter by CAP or city (e.g. IP1, NR1, Milan, Como)..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="w-full pl-10 pr-4 py-2.5 text-sm bg-white border border-slate-300 rounded-xl text-slate-900 placeholder:text-slate-400 focus:outline-none focus:border-emerald-600 transition-colors shadow-xs"
@@ -179,7 +179,7 @@ export const LetterboxCalculator: React.FC<LetterboxCalculatorProps> = ({ onBook
                     >
                       <div className="flex items-center justify-between font-bold mb-1">
                         <span>{info.name}</span>
-                        <span className="font-mono-numbers text-emerald-700 font-extrabold">£{info.rate}/1k</span>
+                        <span className="font-mono-numbers text-emerald-700 font-extrabold">€{info.rate}/1k</span>
                       </div>
                       <p className="text-[11px] text-slate-500 leading-snug">{info.desc}</p>
                     </button>
@@ -238,7 +238,7 @@ export const LetterboxCalculator: React.FC<LetterboxCalculatorProps> = ({ onBook
                         <span className="font-medium">{pInfo.name}</span>
                       </div>
                       <span className="font-mono-numbers font-semibold text-slate-700">
-                        {pInfo.ratePerThousand > 0 ? `+£${pInfo.ratePerThousand}/1k` : '£0.00'}
+                        {pInfo.ratePerThousand > 0 ? `+€${pInfo.ratePerThousand}/1k` : '€0.00'}
                       </span>
                     </label>
                   );
@@ -256,7 +256,7 @@ export const LetterboxCalculator: React.FC<LetterboxCalculatorProps> = ({ onBook
                     />
                     <span className="font-medium">Include Professional Direct-Mail Artwork Design</span>
                   </div>
-                  <span className="font-mono-numbers font-semibold text-slate-900">+£65.00</span>
+                  <span className="font-mono-numbers font-semibold text-slate-900">+€65.00</span>
                 </label>
               )}
             </div>
@@ -279,7 +279,7 @@ export const LetterboxCalculator: React.FC<LetterboxCalculatorProps> = ({ onBook
                 <div className="flex justify-between text-slate-300">
                   <span>Distribution ({quantity.toLocaleString()} leaflets @ {rateMap[distributionType].name})</span>
                   <span className="font-mono-numbers font-semibold text-white">
-                    £{distributionCost.toFixed(2)}
+                    €{distributionCost.toFixed(2)}
                   </span>
                 </div>
 
@@ -287,7 +287,7 @@ export const LetterboxCalculator: React.FC<LetterboxCalculatorProps> = ({ onBook
                   <div className="flex justify-between text-slate-300">
                     <span>Print & Artwork Service</span>
                     <span className="font-mono-numbers font-semibold text-white">
-                      £{printCost.toFixed(2)}
+                      €{printCost.toFixed(2)}
                     </span>
                   </div>
                 )}
@@ -298,7 +298,7 @@ export const LetterboxCalculator: React.FC<LetterboxCalculatorProps> = ({ onBook
                     <Info className="w-3.5 h-3.5 text-slate-400" />
                   </span>
                   <span className="font-mono-numbers font-semibold text-white">
-                    £{platformFee.toFixed(2)}
+                    €{platformFee.toFixed(2)}
                   </span>
                 </div>
 
@@ -308,7 +308,7 @@ export const LetterboxCalculator: React.FC<LetterboxCalculatorProps> = ({ onBook
                     <span className="text-[11px] text-slate-400">Held in Stripe escrow until GPS verified</span>
                   </div>
                   <span className="font-mono-numbers text-2xl font-black text-emerald-400">
-                    £{totalEscrow.toFixed(2)}
+                    €{totalEscrow.toFixed(2)}
                   </span>
                 </div>
               </div>

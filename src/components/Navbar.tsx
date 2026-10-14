@@ -93,20 +93,20 @@ export const Navbar: React.FC<NavbarProps> = ({
           <div className="flex items-center gap-4">
             {/* Phone Call link */}
             <a
-              href="tel:03330154160"
+              href="tel:+390212345678"
               className="nav-action hidden md:flex items-center gap-2 rounded-full border border-red-100 px-4 py-1.5 hover:bg-red-50 transition-colors"
             >
               <img src="/images/PhoneCall.svg" alt="Phone" className="h-5 w-5" />
               <span className="flex flex-col leading-tight">
                 <span className="text-xs text-gray-500">Call us</span>
-                <span className="text-sm font-medium text-black">0333 015 4160</span>
+                <span className="text-sm font-medium text-black">+39 02 1234 5678</span>
               </span>
             </a>
 
             <a
-              href="tel:03330154160"
+              href="tel:+390212345678"
               className="flex md:hidden items-center justify-center h-9 w-9 rounded-full border border-red-100 hover:bg-red-50 transition-colors"
-              aria-label="Call us 0333 015 4160"
+              aria-label="Call us +39 02 1234 5678"
             >
               <PhoneCall className="w-4.5 h-4.5 text-red-500" />
             </a>

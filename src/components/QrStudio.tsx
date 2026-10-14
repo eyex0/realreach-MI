@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { QrCode, Download, ExternalLink, BarChart3, Check, Copy } from 'lucide-react';
 
 export const QrStudio: React.FC = () => {
-  const [targetUrl, setTargetUrl] = useState<string>('https://yourbusiness.co.uk/offer');
+  const [targetUrl, setTargetUrl] = useState<string>('https://yourbusiness.it/offer');
   const [campaignCode, setCampaignCode] = useState<string>('SPRING20');
-  const [selectedSector, setSelectedSector] = useState<string>('IP1 1 — Ipswich Central');
+  const [selectedSector, setSelectedSector] = useState<string>('20121 — Milan Central');
   const [copied, setCopied] = useState<boolean>(false);
   const [downloadSuccess, setDownloadSuccess] = useState<boolean>(false);
 
@@ -34,7 +34,7 @@ export const QrStudio: React.FC = () => {
             QR Code Studio & Physical-to-Digital Attribution
           </h2>
           <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
-            Turn offline door-drops into measurable digital funnels. Marketize automatically generates unique, high-resolution QR codes tagged to specific postcode sectors, giving you real-time scan metrics, conversion rates, and ROI by street.
+            Turn offline door-drops into measurable digital funnels. Marketize automatically generates unique, high-resolution QR codes tagged to specific CAP sectors, giving you real-time scan metrics, conversion rates, and ROI by street.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export const QrStudio: React.FC = () => {
                 type="url"
                 value={targetUrl}
                 onChange={(e) => setTargetUrl(e.target.value)}
-                placeholder="https://yourbusiness.co.uk/promo"
+                placeholder="https://yourbusiness.it/promo"
                 className="w-full px-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-sm text-slate-900 focus:outline-none focus:border-emerald-600 transition-colors shadow-xs"
               />
               <span className="text-[11px] text-slate-500">
@@ -83,12 +83,12 @@ export const QrStudio: React.FC = () => {
                   onChange={(e) => setSelectedSector(e.target.value)}
                   className="w-full px-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-sm text-slate-900 focus:outline-none focus:border-emerald-600 transition-colors shadow-xs"
                 >
-                  <option value="IP1 1 — Ipswich Central">IP1 1 — Ipswich Central</option>
-                  <option value="IP1 2 — Ipswich North">IP1 2 — Ipswich North</option>
-                  <option value="IP2 8 — Ipswich Chantry">IP2 8 — Ipswich Chantry</option>
-                  <option value="NR1 1 — Norwich Central">NR1 1 — Norwich Central</option>
-                  <option value="CB1 2 — Cambridge Central">CB1 2 — Cambridge Central</option>
-                  <option value="EC1V — London Clerkenwell">EC1V — London Clerkenwell</option>
+                  <option value="20121 — Milan Central">20121 — Milan Central</option>
+                  <option value="20122 — Milan North">20122 — Milan North</option>
+                  <option value="20123 — Milan Chantry">20123 — Milan Chantry</option>
+                  <option value="20900 — Monza Central">20900 — Monza Central</option>
+                  <option value="22100 — Como Central">22100 — Como Central</option>
+                  <option value="20121 — Milan Clerkenwell">20121 — Milan Clerkenwell</option>
                 </select>
               </div>
             </div>
@@ -228,13 +228,13 @@ export const QrStudio: React.FC = () => {
                 </div>
                 <div className="p-2.5 bg-slate-50 rounded-lg border border-slate-100">
                   <div className="text-[10px] text-slate-500">Cost / Scan</div>
-                  <div className="font-mono-numbers text-base font-bold text-slate-900">£0.76</div>
+                  <div className="font-mono-numbers text-base font-bold text-slate-900">€0.76</div>
                 </div>
               </div>
 
               <div className="text-[11px] text-slate-500 flex items-center justify-between">
                 <span>Top Performing Sector:</span>
-                <strong className="text-slate-900 font-semibold">IP1 2 (Ipswich Central North)</strong>
+                <strong className="text-slate-900 font-semibold">20122 (Porta Venezia & Centrale)</strong>
               </div>
             </div>
           </div>

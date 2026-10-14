@@ -24,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({
                 <img src="/images/footer.png" alt="Marketize" className="h-8 w-auto object-contain" />
               </a>
               <p className="text-gray-500 text-sm leading-6 mb-6">
-                The UK's first GPS-verified leaflet distribution marketplace. Bringing trust, transparency, and technology to an industry that needed all three.
+                Milan's first GPS-verified leaflet distribution marketplace. Bringing trust, transparency, and technology to an industry that needed all three.
               </p>
               <p className="text-sm font-medium text-gray-600 mb-3">Follow us</p>
               <div className="flex items-center gap-3">

@@ -86,7 +86,7 @@ export const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose }) => 
             </div>
             <h4 className="text-xl font-bold text-gray-900">Welcome Back</h4>
             <p className="text-xs text-gray-600 max-w-sm mx-auto">
-              Logged in successfully as <strong>{email || 'client@business.co.uk'}</strong> ({role.toUpperCase()}). Accessing live GPS campaign dashboard.
+              Logged in successfully as <strong>{email || 'client@business.it'}</strong> ({role.toUpperCase()}). Accessing live GPS campaign dashboard.
             </p>
             <button
               onClick={handleReset}
@@ -107,7 +107,7 @@ export const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose }) => 
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="name@company.co.uk"
+                  placeholder="name@company.it"
                   className="w-full pl-9 pr-3 py-2.5 rounded-xl border border-gray-200 text-xs focus:outline-none focus:ring-2 focus:ring-red-500"
                 />
               </div>
