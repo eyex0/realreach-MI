@@ -22,7 +22,7 @@ export const Footer: React.FC<FooterProps> = ({
             <div>
               <a href="/" className="inline-block mb-5">
                 <span className="flex items-center gap-2" aria-label="Realreach">
-                  <span className="flex h-8 w-8 items-center justify-center rounded-full bg-red-500 text-lg font-black text-white shadow-sm">R</span>
+                  <img src="/realreach-logo.png" alt="" className="h-9 w-9 object-contain" />
                   <span className="text-[22px] font-extrabold tracking-[-0.04em] text-gray-900">Real<span className="text-red-500">reach</span></span>
                 </span>
               </a>

@@ -35,7 +35,7 @@ export const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose }) => 
         <div className="p-5 border-b border-gray-100 flex items-center justify-between bg-gray-50/70">
           <div className="flex items-center gap-2.5">
             <span className="flex items-center gap-1.5" aria-label="Realreach">
-              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-red-500 text-sm font-black text-white">R</span>
+              <img src="/realreach-logo.png" alt="" className="h-7 w-7 object-contain" />
               <span className="text-lg font-extrabold tracking-[-0.04em] text-gray-900">Real<span className="text-red-500">reach</span></span>
             </span>
             <span className="text-sm font-bold text-gray-900">Portal Login</span>
