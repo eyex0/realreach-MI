@@ -76,7 +76,8 @@ export const FaqSection: React.FC = () => {
             return (
               <div
                 key={faq.id}
-                className={`overflow-hidden rounded-xl border border-gray-200 transition-all duration-200 faq-item ${
+                style={{ '--motion-delay': `${(faq.id - 1) * 70}ms` } as React.CSSProperties}
+                className={`marketize-fade-up overflow-hidden rounded-xl border border-gray-200 transition-all duration-200 faq-item ${
                   isOpen ? 'bg-gray-50 shadow-xs' : 'bg-white'
                 }`}
               >
@@ -102,7 +103,7 @@ export const FaqSection: React.FC = () => {
                 </button>
 
                 {isOpen && (
-                  <div className="px-4 sm:px-6 py-4 pt-0 bg-gray-50 animate-in fade-in duration-200">
+                  <div className="marketize-expand-down px-4 sm:px-6 py-4 pt-0 bg-gray-50">
                     <p className="text-sm sm:text-base leading-relaxed text-gray-600">
                       {faq.answer}
                     </p>

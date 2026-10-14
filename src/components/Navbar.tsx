@@ -208,7 +208,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden fixed inset-x-0 top-16 bg-white border-b border-gray-200 px-5 py-6 space-y-4 shadow-xl z-50">
+        <div className="marketize-mobile-drawer lg:hidden fixed inset-x-0 top-16 bg-white border-b border-gray-200 px-5 py-6 space-y-4 shadow-xl z-50">
           <div className="flex flex-col space-y-3 text-sm font-medium text-gray-800">
             <a
               href="#home"
