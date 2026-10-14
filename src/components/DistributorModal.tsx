@@ -98,8 +98,9 @@ export const DistributorModal: React.FC<DistributorModalProps> = ({ isOpen, onCl
 
             <div className="space-y-3">
               <div>
-                <label className="block text-xs font-medium text-gray-700 mb-1">Full Name</label>
+                <label htmlFor="distributor-full-name" className="block text-xs font-medium text-gray-700 mb-1">Full Name</label>
                 <input
+                  id="distributor-full-name"
                   type="text"
                   required
                   value={fullName}
@@ -111,8 +112,9 @@ export const DistributorModal: React.FC<DistributorModalProps> = ({ isOpen, onCl
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div>
-                  <label className="block text-xs font-medium text-gray-700 mb-1">Email</label>
+                  <label htmlFor="distributor-email" className="block text-xs font-medium text-gray-700 mb-1">Email</label>
                   <input
+                    id="distributor-email"
                     type="email"
                     required
                     value={email}
@@ -122,8 +124,9 @@ export const DistributorModal: React.FC<DistributorModalProps> = ({ isOpen, onCl
                   />
                 </div>
                 <div>
-                  <label className="block text-xs font-medium text-gray-700 mb-1">Phone Number</label>
+                  <label htmlFor="distributor-phone" className="block text-xs font-medium text-gray-700 mb-1">Phone Number</label>
                   <input
+                    id="distributor-phone"
                     type="tel"
                     required
                     value={phone}
@@ -136,8 +139,9 @@ export const DistributorModal: React.FC<DistributorModalProps> = ({ isOpen, onCl
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div>
-                  <label className="block text-xs font-medium text-gray-700 mb-1">Preferred Location</label>
+                  <label htmlFor="distributor-location" className="block text-xs font-medium text-gray-700 mb-1">Preferred Location</label>
                   <select
+                    id="distributor-location"
                     value={postcodeArea}
                     onChange={(e) => setPostcodeArea(e.target.value)}
                     className="w-full px-3 py-2 rounded-xl border border-gray-200 text-xs focus:outline-none focus:ring-2 focus:ring-red-500 bg-white"
@@ -154,8 +158,9 @@ export const DistributorModal: React.FC<DistributorModalProps> = ({ isOpen, onCl
                 </div>
 
                 <div>
-                  <label className="block text-xs font-medium text-gray-700 mb-1">Delivery Method</label>
+                  <label htmlFor="distributor-method" className="block text-xs font-medium text-gray-700 mb-1">Delivery Method</label>
                   <select
+                    id="distributor-method"
                     value={transportType}
                     onChange={(e) => setTransportType(e.target.value)}
                     className="w-full px-3 py-2 rounded-xl border border-gray-200 text-xs focus:outline-none focus:ring-2 focus:ring-red-500 bg-white"

@@ -98,10 +98,11 @@ export const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose }) => 
         ) : (
           <form onSubmit={handleLogin} className="p-6 space-y-4 text-xs">
             <div>
-              <label className="block text-xs font-medium text-gray-700 mb-1">Email Address</label>
+              <label htmlFor="login-email" className="block text-xs font-medium text-gray-700 mb-1">Email Address</label>
               <div className="relative">
                 <Mail className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" />
-                <input
+                  <input
+                  id="login-email"
                   type="email"
                   required
                   value={email}
@@ -114,7 +115,7 @@ export const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose }) => 
 
             <div>
               <div className="flex justify-between items-center mb-1">
-                <label className="text-xs font-medium text-gray-700">Password</label>
+                <label htmlFor="login-password" className="text-xs font-medium text-gray-700">Password</label>
                 <a href="#reset" onClick={(e) => { e.preventDefault(); alert('Password reset link sent.'); }} className="text-[11px] text-red-500 hover:underline">
                   Forgot?
                 </a>
@@ -122,6 +123,7 @@ export const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose }) => 
               <div className="relative">
                 <Lock className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" />
                 <input
+                  id="login-password"
                   type="password"
                   required
                   value={password}

@@ -115,8 +115,9 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
             {/* Quick Sector & Type Picker */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div>
-                <label className="block text-xs font-medium text-gray-700 mb-1">Target Sector</label>
+                <label htmlFor="campaign-sector" className="block text-xs font-medium text-gray-700 mb-1">Target Sector</label>
                 <select
+                  id="campaign-sector"
                   value={selectedPostcode}
                   onChange={(e) => setSelectedPostcode(e.target.value)}
                   className="w-full px-3 py-2 rounded-xl border border-gray-200 text-xs focus:outline-none focus:ring-2 focus:ring-red-500 bg-white"
@@ -193,8 +194,9 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
             {/* Client Inputs */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div>
-                <label className="block text-xs font-medium text-gray-700 mb-1">Company / Brand Name</label>
+                <label htmlFor="campaign-business-name" className="block text-xs font-medium text-gray-700 mb-1">Company / Brand Name</label>
                 <input
+                  id="campaign-business-name"
                   type="text"
                   required
                   value={businessName}
@@ -204,8 +206,9 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
                 />
               </div>
               <div>
-                <label className="block text-xs font-medium text-gray-700 mb-1">Contact Name</label>
+                <label htmlFor="campaign-contact-name" className="block text-xs font-medium text-gray-700 mb-1">Contact Name</label>
                 <input
+                  id="campaign-contact-name"
                   type="text"
                   required
                   value={contactName}
@@ -215,8 +218,9 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
                 />
               </div>
               <div>
-                <label className="block text-xs font-medium text-gray-700 mb-1">Work Email</label>
+                <label htmlFor="campaign-email" className="block text-xs font-medium text-gray-700 mb-1">Work Email</label>
                 <input
+                  id="campaign-email"
                   type="email"
                   required
                   value={email}
@@ -226,8 +230,9 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
                 />
               </div>
               <div>
-                <label className="block text-xs font-medium text-gray-700 mb-1">Phone Number</label>
+                <label htmlFor="campaign-phone" className="block text-xs font-medium text-gray-700 mb-1">Phone Number</label>
                 <input
+                  id="campaign-phone"
                   type="tel"
                   required
                   value={phone}
@@ -239,8 +244,9 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
             </div>
 
             <div>
-              <label className="block text-xs font-medium text-gray-700 mb-1">Desired Drop Start Date</label>
+              <label htmlFor="campaign-date" className="block text-xs font-medium text-gray-700 mb-1">Desired Drop Start Date</label>
               <input
+                id="campaign-date"
                 type="date"
                 required
                 value={targetDate}
