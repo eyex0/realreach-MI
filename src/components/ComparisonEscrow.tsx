@@ -12,13 +12,13 @@ export const ComparisonEscrow: React.FC<ComparisonEscrowProps> = ({ onOpenCampai
         {/* Section Heading */}
         <div className="max-w-3xl mb-14">
           <div className="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">
-            The Marketize Escrow Guarantee
+            The Realreach Escrow Guarantee
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight [text-wrap:balance]">
             Ending Dishonesty in Leaflet Distribution
           </h2>
           <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
-            For decades, door-drop marketing suffered from zero accountability, blind faith, and dumped flyers. Marketize was built with an escrow-first architecture where distributors only get paid when independent GPS evidence confirms delivery.
+            For decades, door-drop marketing suffered from zero accountability, blind faith, and dumped flyers. Realreach was built with an escrow-first architecture where distributors only get paid when independent GPS evidence confirms delivery.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ export const ComparisonEscrow: React.FC<ComparisonEscrowProps> = ({ onOpenCampai
             </div>
             <h3 className="font-bold text-base text-slate-900">Live GPS-Tracked Round</h3>
             <p className="text-xs text-slate-600 leading-relaxed">
-              A vetted local distributor executes the delivery using the Marketize mobile app, logging footsteps every 3 seconds even in offline zones.
+              A vetted local distributor executes the delivery using the Realreach mobile app, logging footsteps every 3 seconds even in offline zones.
             </p>
           </div>
 
@@ -65,11 +65,11 @@ export const ComparisonEscrow: React.FC<ComparisonEscrowProps> = ({ onOpenCampai
           </div>
         </div>
 
-        {/* Comparison Matrix: Marketize vs Traditional */}
+        {/* Comparison Matrix: Realreach vs Traditional */}
         <div id="escrow-guarantee" className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
           <div className="p-6 sm:p-8 border-b border-slate-200 flex flex-wrap items-center justify-between gap-4 bg-slate-50/50">
             <div>
-              <h3 className="text-lg font-bold text-slate-900">Marketize vs Traditional Leaflet Delivery</h3>
+              <h3 className="text-lg font-bold text-slate-900">Realreach vs Traditional Leaflet Delivery</h3>
               <p className="text-xs text-slate-500">Direct structural comparison of safety, tracking, and pricing</p>
             </div>
             <div className="flex items-center gap-2 text-xs font-bold text-emerald-800 bg-emerald-100 border border-emerald-200 px-3 py-1.5 rounded-lg">
@@ -83,7 +83,7 @@ export const ComparisonEscrow: React.FC<ComparisonEscrowProps> = ({ onOpenCampai
               <thead className="bg-slate-100/70 text-slate-600 uppercase text-[11px] font-bold border-b border-slate-200">
                 <tr>
                   <th className="py-4 px-6">Feature & Safeguard</th>
-                  <th className="py-4 px-6 text-emerald-800 font-extrabold bg-emerald-50/60">Marketize Platform</th>
+                  <th className="py-4 px-6 text-emerald-800 font-extrabold bg-emerald-50/60">Realreach Platform</th>
                   <th className="py-4 px-6 text-slate-600">Legacy Leaflet Agencies</th>
                 </tr>
               </thead>
@@ -140,7 +140,7 @@ export const ComparisonEscrow: React.FC<ComparisonEscrowProps> = ({ onOpenCampai
                   <td className="py-4 px-6 font-bold text-slate-900">Dispute & Refund Recourse</td>
                   <td className="py-4 px-6 bg-emerald-50/30 font-semibold text-slate-900 flex items-center gap-2">
                     <Check className="w-4 h-4 text-emerald-600 shrink-0" />
-                    <span>Marketize acts as independent neutral arbitrator with GPS logs</span>
+                    <span>Realreach acts as independent neutral arbitrator with GPS logs</span>
                   </td>
                   <td className="py-4 px-6 text-slate-500 flex items-center gap-2">
                     <X className="w-4 h-4 text-red-500 shrink-0" />

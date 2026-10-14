@@ -21,7 +21,10 @@ export const Footer: React.FC<FooterProps> = ({
             {/* Column 1: Brand & Social */}
             <div>
               <a href="/" className="inline-block mb-5">
-                <img src="/images/footer.png" alt="Marketize" className="h-8 w-auto object-contain" />
+                <span className="flex items-center gap-2" aria-label="Realreach">
+                  <span className="flex h-8 w-8 items-center justify-center rounded-full bg-red-500 text-lg font-black text-white shadow-sm">R</span>
+                  <span className="text-[22px] font-extrabold tracking-[-0.04em] text-gray-900">Real<span className="text-red-500">reach</span></span>
+                </span>
               </a>
               <p className="text-gray-500 text-sm leading-6 mb-6">
                 Milan's first GPS-verified leaflet distribution marketplace. Bringing trust, transparency, and technology to an industry that needed all three.
@@ -55,7 +58,7 @@ export const Footer: React.FC<FooterProps> = ({
                   </svg>
                 </a>
                 <a
-                  href="https://x.com/MarketizeBiz"
+                  href="https://x.com/RealreachBiz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:text-gray-800 transition-colors"
@@ -78,7 +81,7 @@ export const Footer: React.FC<FooterProps> = ({
                   </svg>
                 </a>
                 <a
-                  href="https://www.instagram.com/marketize.biz"
+                  href="https://www.instagram.com/realreach.biz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:text-gray-800 transition-colors"
@@ -155,7 +158,7 @@ export const Footer: React.FC<FooterProps> = ({
                 </li>
                 <li>
                   <a
-                    href="https://marketize.biz/the-complete-guide-book.pdf"
+                    href="https://realreach.biz/the-complete-guide-book.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-red-500 transition-colors"
@@ -204,12 +207,12 @@ export const Footer: React.FC<FooterProps> = ({
           {/* Bottom Bar: Copyright and Mobile App Links */}
           <div className="flex flex-wrap items-center justify-between gap-4 py-6 border-t border-gray-200">
             <span className="text-gray-500 text-sm">
-              © 2026 Marketize Systems Limited. All rights reserved.
+              © 2026 Realreach Systems Limited. All rights reserved.
             </span>
             <div className="flex items-center gap-3">
               <span className="text-gray-700 text-sm font-medium">Download mobile app</span>
               <a
-                href="https://apps.apple.com/us/app/marketize/id6769349834"
+                href="https://apps.apple.com/us/app/realreach/id6769349834"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
@@ -217,7 +220,7 @@ export const Footer: React.FC<FooterProps> = ({
                 <img src="/images/appstore.svg" alt="Download on the App Store" className="h-9 w-auto" />
               </a>
               <a
-                href="https://play.google.com/store/apps/details?id=com.marketizeltd.marketize&hl=en"
+                href="https://play.google.com/store/apps/details?id=com.realreachltd.realreach&hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-900 transition-colors"

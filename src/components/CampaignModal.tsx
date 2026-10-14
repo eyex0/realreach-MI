@@ -187,7 +187,7 @@ export const CampaignModal: React.FC<CampaignModalProps> = ({
                 <div className="text-lg font-bold text-gray-900">€{escrowAmount.toFixed(2)}</div>
               </div>
               <div className="text-right text-[11px] text-green-700 bg-green-50 px-2.5 py-1 rounded-full border border-green-200 font-medium">
-                ✓ Held by Stripe via Marketize
+                ✓ Held by Stripe via Realreach
               </div>
             </div>
 

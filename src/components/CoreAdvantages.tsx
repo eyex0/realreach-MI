@@ -9,7 +9,7 @@ export const CoreAdvantages: React.FC<CoreAdvantagesProps> = ({ onCardClick }) =
     {
       icon: '/images/home/advantages/gps.svg',
       title: 'Real-Time GPS - Not a Gimmick',
-      desc: "Unlike basic GPS loggers that can be tampered with or lose signal, Marketize stores GPS data locally on the distributor's device even without internet and syncs when connection is restored. No blank spots. No manipulation. Indisputable proof.",
+      desc: "Unlike basic GPS loggers that can be tampered with or lose signal, Realreach stores GPS data locally on the distributor's device even without internet and syncs when connection is restored. No blank spots. No manipulation. Indisputable proof.",
     },
     {
       icon: '/images/home/advantages/lock.svg',
@@ -19,7 +19,7 @@ export const CoreAdvantages: React.FC<CoreAdvantagesProps> = ({ onCardClick }) =
     {
       icon: '/images/home/advantages/dispute.svg',
       title: 'Neutral Dispute Resolution',
-      desc: 'If things go wrong, Marketize steps in as a trusted, independent third party - reviewing GPS data, photo evidence, and communication logs. Disputes resolved with evidence rather than arguments. Fast, fair and final.',
+      desc: 'If things go wrong, Realreach steps in as a trusted, independent third party - reviewing GPS data, photo evidence, and communication logs. Disputes resolved with evidence rather than arguments. Fast, fair and final.',
     },
     {
       icon: '/images/home/advantages/letterbox.svg',
@@ -34,7 +34,7 @@ export const CoreAdvantages: React.FC<CoreAdvantagesProps> = ({ onCardClick }) =
     {
       icon: '/images/home/advantages/marketplace.svg',
       title: 'Open Marketplace - Lower Costs',
-      desc: 'Unlike traditional distribution companies with high overheads and rigid minimums, Marketize lets any verified sole trader or agency take on work. More competition means better prices. Campaigns from just 500 leaflets.',
+      desc: 'Unlike traditional distribution companies with high overheads and rigid minimums, Realreach lets any verified sole trader or agency take on work. More competition means better prices. Campaigns from just 500 leaflets.',
     },
   ];
 
@@ -46,7 +46,7 @@ export const CoreAdvantages: React.FC<CoreAdvantagesProps> = ({ onCardClick }) =
             Our Core Advantages
           </span>
           <h2 className="section-heading max-w-lg !text-2xl sm:!text-4xl lg:!text-5xl !leading-tight text-gray-900">
-            Six reasons Marketize is in a category of its own
+            Six reasons Realreach is in a category of its own
           </h2>
         </div>
 

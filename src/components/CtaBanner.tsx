@@ -21,7 +21,7 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({
               Ready to run a campaign you can actually prove?
             </h2>
             <p className="card-subtext !text-sm sm:!text-base">
-              Join the businesses, distributors, and agencies already using Marketize to make leaflet distribution trustworthy for the first time.
+              Join the businesses, distributors, and agencies already using Realreach to make leaflet distribution trustworthy for the first time.
             </p>
           </div>
 

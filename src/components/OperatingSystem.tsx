@@ -21,7 +21,7 @@ export const OperatingSystem: React.FC<OperatingSystemProps> = ({ onCardClick })
     {
       icon: '/images/home/included/lock.svg',
       title: 'Escrow-like Payment System',
-      desc: 'Funds are held securely by Marketize via Stripe until GPS-verified completion. Payment releases automatically - no chasing, no disputes.',
+      desc: 'Funds are held securely by Realreach via Stripe until GPS-verified completion. Payment releases automatically - no chasing, no disputes.',
       comingSoon: false,
     },
     {
@@ -63,7 +63,7 @@ export const OperatingSystem: React.FC<OperatingSystemProps> = ({ onCardClick })
     {
       icon: '/images/home/included/dispute.svg',
       title: 'Dispute Resolution',
-      desc: "If a dispute arises, Marketize's team reviews all GPS data, photo evidence, and communication logs as an independent, neutral third party.",
+      desc: "If a dispute arises, Realreach's team reviews all GPS data, photo evidence, and communication logs as an independent, neutral third party.",
       comingSoon: false,
     },
     {

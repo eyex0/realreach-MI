@@ -59,7 +59,7 @@ export const DistributorModal: React.FC<DistributorModalProps> = ({ isOpen, onCl
             </div>
             <h4 className="text-xl font-bold text-gray-900">Application Received!</h4>
             <p className="text-xs text-gray-600 leading-relaxed max-w-md mx-auto">
-              Thank you, <strong>{fullName}</strong>. We've sent your free Marketize GPS App activation instructions to <strong>{email}</strong>. Our local courier operations team will verify your territory in <strong>{CAPArea}</strong>.
+              Thank you, <strong>{fullName}</strong>. We've sent your free Realreach GPS App activation instructions to <strong>{email}</strong>. Our local courier operations team will verify your territory in <strong>{CAPArea}</strong>.
             </p>
             <button
               onClick={handleReset}
@@ -175,7 +175,7 @@ export const DistributorModal: React.FC<DistributorModalProps> = ({ isOpen, onCl
             </div>
 
             <div className="p-3 bg-red-50/50 rounded-2xl border border-red-100 text-xs text-gray-700 space-y-1">
-              <div className="font-semibold text-gray-900">Why deliver with Marketize?</div>
+              <div className="font-semibold text-gray-900">Why deliver with Realreach?</div>
               <p className="text-[11px] text-gray-600 leading-snug">
                 • 100% Escrow security — money is locked before you take your first step.
                 <br />

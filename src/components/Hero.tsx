@@ -26,7 +26,7 @@ export const Hero: React.FC<HeroProps> = ({
       <div className="relative mx-auto px-4 sm:px-6 py-10 lg:py-18 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Column: Glass Card with Value Proposition */}
-          <div className="marketize-fade-up space-y-5 sm:space-y-8 w-full backdrop-blur-[19px] rounded-3xl p-5 sm:p-8 bg-[#FFFFFF6E]/43 shadow-xs">
+          <div className="realreach-fade-up space-y-5 sm:space-y-8 w-full backdrop-blur-[19px] rounded-3xl p-5 sm:p-8 bg-[#FFFFFF6E]/43 shadow-xs">
             <div className="inline-flex items-center gap-2 bg-red-500 border border-red-500 rounded-full px-3 py-1.5 sm:px-4 sm:py-2">
               <span className="w-2 h-2 bg-white rounded-full shrink-0 animate-pulse"></span>
               <span className="text-xs sm:text-sm font-medium text-white">
@@ -39,7 +39,7 @@ export const Hero: React.FC<HeroProps> = ({
             </h1>
 
             <p className="text-gray-700 text-base sm:text-[18px] leading-7">
-              Marketize is the only platform that puts live GPS tracking, escrow-like payments, and independent dispute resolution between every client and every distributor - eliminating decades of industry dishonesty in one place.
+              Realreach is the only platform that puts live GPS tracking, escrow-like payments, and independent dispute resolution between every client and every distributor - eliminating decades of industry dishonesty in one place.
             </p>
 
             <div className="flex flex-wrap items-center gap-3 sm:gap-4">
@@ -76,7 +76,7 @@ export const Hero: React.FC<HeroProps> = ({
           {/* Right Column: 3 Live Telemetry Cards */}
           <div className="relative flex flex-col gap-4 lg:pl-8 h-full self-stretch">
             {/* Card 1: Live Delivery Tracking */}
-            <div className="marketize-fade-up flex-1 bg-[#FFFFFF6E]/43 backdrop-blur-[5px] rounded-2xl shadow-sm p-4 sm:p-6 w-full lg:max-w-md lg:ml-auto border border-white/60 [--motion-delay:120ms]">
+            <div className="realreach-fade-up flex-1 bg-[#FFFFFF6E]/43 backdrop-blur-[5px] rounded-2xl shadow-sm p-4 sm:p-6 w-full lg:max-w-md lg:ml-auto border border-white/60 [--motion-delay:120ms]">
               <div className="flex items-start gap-3 mb-4">
                 <div className="flex h-10 w-10 sm:h-13 sm:w-13 items-center justify-center shrink-0">
                   <img src="/images/home/icons/icon.svg" alt="Live Delivery Tracking" className="h-10 w-10" />
@@ -117,7 +117,7 @@ export const Hero: React.FC<HeroProps> = ({
             </div>
 
             {/* Card 2: Escrow-like Payment */}
-            <div className="marketize-fade-up flex-1 bg-[#FFFFFF6E]/43 backdrop-blur-[5px] rounded-2xl shadow-sm p-4 sm:p-6 w-full lg:max-w-md lg:ml-auto border border-white/60 [--motion-delay:240ms]">
+            <div className="realreach-fade-up flex-1 bg-[#FFFFFF6E]/43 backdrop-blur-[5px] rounded-2xl shadow-sm p-4 sm:p-6 w-full lg:max-w-md lg:ml-auto border border-white/60 [--motion-delay:240ms]">
               <div className="flex items-start gap-3 mb-4">
                 <div className="flex h-10 w-10 sm:h-13 sm:w-13 items-center justify-center shrink-0">
                   <img src="/images/home/icons/lock.svg" alt="Escrow Payment" className="h-10 w-10" />
@@ -134,7 +134,7 @@ export const Hero: React.FC<HeroProps> = ({
 
               <div className="flex flex-wrap gap-2">
                 <span className="border border-green-200 text-[#4CAF50] text-xs px-3 py-1 rounded-full bg-[#4CAF50]/10 font-medium">
-                  ✓ Funds held by Stripe via Marketize
+                  ✓ Funds held by Stripe via Realreach
                 </span>
                 <span className="bg-white border border-gray-200 text-gray-700 text-xs px-3 py-1 rounded-full">
                   Releases on completion
@@ -143,7 +143,7 @@ export const Hero: React.FC<HeroProps> = ({
             </div>
 
             {/* Card 3: Photo Evidence */}
-            <div className="marketize-fade-up flex-1 bg-[#FFFFFF6E]/43 backdrop-blur-[5px] rounded-2xl shadow-sm p-4 sm:p-6 w-full lg:max-w-md lg:ml-auto border border-white/60 [--motion-delay:360ms]">
+            <div className="realreach-fade-up flex-1 bg-[#FFFFFF6E]/43 backdrop-blur-[5px] rounded-2xl shadow-sm p-4 sm:p-6 w-full lg:max-w-md lg:ml-auto border border-white/60 [--motion-delay:360ms]">
               <div className="flex items-start gap-3 mb-4">
                 <div className="flex h-10 w-10 sm:h-13 sm:w-13 items-center justify-center shrink-0">
                   <img src="/images/home/icons/photo.svg" alt="Photo Evidence" className="h-10 w-10" />

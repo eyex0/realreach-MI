@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { FeaturedIn } from './components/FeaturedIn';
-import { WhyMarketizeExists } from './components/WhyMarketizeExists';
+import { WhyRealreachExists } from './components/WhyRealreachExists';
 import { CoreAdvantages } from './components/CoreAdvantages';
 import { ComparisonTable } from './components/ComparisonTable';
 import { SimpleProcess } from './components/SimpleProcess';
@@ -10,7 +10,7 @@ import { OperatingSystem } from './components/OperatingSystem';
 import { WhoItsFor } from './components/WhoItsFor';
 import { NumbersAndTrust } from './components/NumbersAndTrust';
 import { TrustedCities } from './components/TrustedCities';
-import { MarketizeAppSection } from './components/MarketizeAppSection';
+import { RealreachAppSection } from './components/RealreachAppSection';
 import { FaqSection } from './components/FaqSection';
 import { CtaBanner } from './components/CtaBanner';
 import { Footer } from './components/Footer';
@@ -43,7 +43,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white text-gray-900 flex flex-col font-sans selection:bg-red-500 selection:text-white">
-      {/* Fixed Header / Navigation matching marketize.biz exactly */}
+      {/* Fixed Header / Navigation matching realreach.biz exactly */}
       <Navbar
         onOpenCampaignModal={() => setIsCampaignModalOpen(true)}
         onOpenDistributorModal={() => setIsDistributorModalOpen(true)}
@@ -64,10 +64,10 @@ export default function App() {
         {/* Section 1: As featured in Printweek */}
         <FeaturedIn />
 
-        {/* Section 2: Why Marketize Exists - Decades-long trust problem vs Marketize Solves This */}
-        <WhyMarketizeExists />
+        {/* Section 2: Why Realreach Exists - Decades-long trust problem vs Realreach Solves This */}
+        <WhyRealreachExists />
 
-        {/* Section 3: Six reasons Marketize is in a category of its own */}
+        {/* Section 3: Six reasons Realreach is in a category of its own */}
         <CoreAdvantages onCardClick={() => setIsCampaignModalOpen(true)} />
 
         {/* Section 4: Honest Comparison - How we stack up */}
@@ -96,8 +96,8 @@ export default function App() {
         {/* Section 9: Trusted by BUSINESSES in - City buttons */}
         <TrustedCities />
 
-        {/* Section 10: The Marketize App - Your smartphone is the only supervisor you need */}
-        <MarketizeAppSection />
+        {/* Section 10: The Realreach App - Your smartphone is the only supervisor you need */}
+        <RealreachAppSection />
 
         {/* Section 11: Got questions? Frequently asked questions */}
         <FaqSection />
@@ -109,7 +109,7 @@ export default function App() {
         />
       </main>
 
-      {/* Footer matching marketize.biz exactly */}
+      {/* Footer matching realreach.biz exactly */}
       <Footer
         onOpenCampaignModal={() => setIsCampaignModalOpen(true)}
         onOpenDistributorModal={() => setIsDistributorModalOpen(true)}

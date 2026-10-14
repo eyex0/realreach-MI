@@ -15,13 +15,13 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">
-            The Marketize Methodology
+            The Realreach Methodology
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight [text-wrap:balance]">
             How GPS-Verified Leaflet Distribution Works
           </h2>
           <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
-            Marketize replaces blind trust with real-time verification and Stripe escrow protection. From campaign planning to verified doorstep delivery, every stage is fully trackable.
+            Realreach replaces blind trust with real-time verification and Stripe escrow protection. From campaign planning to verified doorstep delivery, every stage is fully trackable.
           </p>
         </div>
 

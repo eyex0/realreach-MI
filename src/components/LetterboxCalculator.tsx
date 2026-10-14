@@ -294,7 +294,7 @@ export const LetterboxCalculator: React.FC<LetterboxCalculatorProps> = ({ onBook
 
                 <div className="flex justify-between text-slate-300">
                   <span className="flex items-center gap-1">
-                    Marketize Escrow & GPS Verification Fee (7.5%)
+                    Realreach Escrow & GPS Verification Fee (7.5%)
                     <Info className="w-3.5 h-3.5 text-slate-400" />
                   </span>
                   <span className="font-mono-numbers font-semibold text-white">

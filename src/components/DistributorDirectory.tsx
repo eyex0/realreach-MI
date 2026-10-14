@@ -28,7 +28,7 @@ export const DistributorDirectory: React.FC<DistributorDirectoryProps> = ({ onSe
               Verified GPS Distributors & Local Delivery Teams
             </h2>
             <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
-              Every distributor on Marketize has undergone identity verification, DBS screening, and GPS accuracy qualification. Review verifiable track records, completed round histories, and client ratings.
+              Every distributor on Realreach has undergone identity verification, DBS screening, and GPS accuracy qualification. Review verifiable track records, completed round histories, and client ratings.
             </p>
           </div>
 
@@ -156,7 +156,7 @@ export const DistributorDirectory: React.FC<DistributorDirectoryProps> = ({ onSe
               {'★'.repeat(5)}
             </div>
             <p className="text-xs text-slate-600 italic leading-relaxed">
-              "With previous leaflet distributors we had complaints of dumped boxes in park bins. With Marketize, funds didn't leave escrow until GPS tracks were reviewed. We achieved 142 gym member sign-ups from our Monza drop."
+              "With previous leaflet distributors we had complaints of dumped boxes in park bins. With Realreach, funds didn't leave escrow until GPS tracks were reviewed. We achieved 142 gym member sign-ups from our Monza drop."
             </p>
             <div className="pt-2 border-t border-slate-100 text-xs">
               <strong className="text-slate-900 block">Chloe Bennett</strong>

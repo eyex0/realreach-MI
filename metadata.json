@@ -1,6 +1,6 @@
 {
-  "name": "Marketize — Milan's First GPS-Verified Leaflet Distribution Marketplace",
-  "description": "Marketize connects businesses with verified leaflet distributors across Milan, Italy. Real-time GPS tracking, 100% escrow payment protection via Stripe, instant letterbox counts, and smart QR response analytics.",
+  "name": "Realreach — Milan's First GPS-Verified Leaflet Distribution Marketplace",
+  "description": "Realreach connects businesses with verified leaflet distributors across Milan, Italy. Real-time GPS tracking, 100% escrow payment protection via Stripe, instant letterbox counts, and smart QR response analytics.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

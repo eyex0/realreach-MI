@@ -34,7 +34,10 @@ export const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose }) => 
       <div className="bg-white border border-gray-200 max-w-md w-full rounded-3xl overflow-hidden shadow-2xl">
         <div className="p-5 border-b border-gray-100 flex items-center justify-between bg-gray-50/70">
           <div className="flex items-center gap-2.5">
-            <img src="/images/Logo.png" alt="Marketize" className="h-7 w-auto object-contain" />
+            <span className="flex items-center gap-1.5" aria-label="Realreach">
+              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-red-500 text-sm font-black text-white">R</span>
+              <span className="text-lg font-extrabold tracking-[-0.04em] text-gray-900">Real<span className="text-red-500">reach</span></span>
+            </span>
             <span className="text-sm font-bold text-gray-900">Portal Login</span>
           </div>
           <button onClick={handleReset} className="p-1.5 text-gray-400 hover:text-gray-700 rounded-lg cursor-pointer">
@@ -145,7 +148,7 @@ export const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose }) => 
             </div>
 
             <p className="text-center text-[11px] text-gray-500 pt-2">
-              Protected by Marketize Secure Auth &amp; Cloudflare
+              Protected by Realreach Secure Auth &amp; Cloudflare
             </p>
           </form>
         )}

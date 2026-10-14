@@ -113,7 +113,7 @@ export const GpsTrackerDemo: React.FC = () => {
             Live GPS Tracking & Photo Verification
           </h2>
           <p className="mt-3 text-slate-300 text-sm sm:text-base leading-relaxed">
-            Eliminate leaflet dumping and skipped streets. The Marketize mobile app tracks every footstep in real time, caches GPS coordinates locally during cellular dead zones, and pins timestamped delivery photos directly to your client portal.
+            Eliminate leaflet dumping and skipped streets. The Realreach mobile app tracks every footstep in real time, caches GPS coordinates locally during cellular dead zones, and pins timestamped delivery photos directly to your client portal.
           </p>
         </div>
 
@@ -268,13 +268,13 @@ export const GpsTrackerDemo: React.FC = () => {
               <div className="relative h-44 overflow-hidden">
                 <img
                   src="/images/home/phone.avif"
-                  alt="Marketize distributor GPS tracking mobile app"
+                  alt="Realreach distributor GPS tracking mobile app"
                   className="w-full h-full object-cover object-center"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent" />
                 <div className="absolute bottom-3 left-4 text-xs font-bold text-white">
-                  Marketize Mobile GPS App (iOS & Android)
+                  Realreach Mobile GPS App (iOS & Android)
                 </div>
               </div>
               <div className="p-5 text-xs space-y-3">
@@ -364,7 +364,7 @@ export const GpsTrackerDemo: React.FC = () => {
               </div>
               <div className="flex justify-between text-slate-300">
                 <span>Verification Authority:</span>
-                <span className="text-emerald-400 font-medium">Marketize Independent Automated Audit</span>
+                <span className="text-emerald-400 font-medium">Realreach Independent Automated Audit</span>
               </div>
               <button
                 onClick={() => setActiveCheckpoint(null)}

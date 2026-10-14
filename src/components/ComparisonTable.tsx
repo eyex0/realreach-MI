@@ -4,77 +4,77 @@ export const ComparisonTable: React.FC = () => {
   const rows = [
     {
       feature: 'Real-time GPS tracking',
-      marketize: { text: 'Live & stored locally', status: 'check' },
+      realreach: { text: 'Live & stored locally', status: 'check' },
       traditional: { text: 'Retrospective / none', status: 'cross' },
       directMail: { text: '', status: 'cross' },
       royalMail: { text: '', status: 'cross' },
     },
     {
       feature: 'Photo evidence with location',
-      marketize: { text: 'One-tap en route', status: 'check' },
+      realreach: { text: 'One-tap en route', status: 'check' },
       traditional: { text: 'Rare / unverified', status: 'cross' },
       directMail: { text: '', status: 'cross' },
       royalMail: { text: '', status: 'cross' },
     },
     {
       feature: 'Escrow-like payment protection',
-      marketize: { text: 'Stripe via Marketize', status: 'check' },
+      realreach: { text: 'Stripe via Realreach', status: 'check' },
       traditional: { text: 'Paid upfront, unreturned', status: 'cross' },
       directMail: { text: '', status: 'cross' },
       royalMail: { text: '', status: 'cross' },
     },
     {
       feature: 'Neutral dispute resolution',
-      marketize: { text: 'Evidence-backed', status: 'check' },
+      realreach: { text: 'Evidence-backed', status: 'check' },
       traditional: { text: 'No arbiter', status: 'cross' },
       directMail: { text: '', status: 'cross' },
       royalMail: { text: '', status: 'cross' },
     },
     {
       feature: 'Letterbox counting tools',
-      marketize: { text: 'Included free', status: 'check' },
+      realreach: { text: 'Included free', status: 'check' },
       traditional: { text: 'Some agencies-pending approval', status: 'plain' },
       directMail: { text: '', status: 'cross' },
       royalMail: { text: '', status: 'cross' },
     },
     {
       feature: 'Demographic targeting',
-      marketize: { text: 'CAP-level', status: 'check' },
+      realreach: { text: 'CAP-level', status: 'check' },
       traditional: { text: 'Limited, some CAP level', status: 'plain' },
       directMail: { text: 'Address-level', status: 'check' },
       royalMail: { text: '', status: 'cross' },
     },
     {
       feature: 'QR code response tracking',
-      marketize: { text: 'Included', status: 'check' },
+      realreach: { text: 'Included', status: 'check' },
       traditional: { text: '', status: 'cross' },
       directMail: { text: '', status: 'cross' },
       royalMail: { text: '', status: 'cross' },
     },
     {
       feature: 'Minimum campaign size',
-      marketize: { text: '500 leaflets', status: 'check' },
+      realreach: { text: '500 leaflets', status: 'check' },
       traditional: { text: '5,000+ typical', status: 'plain' },
       directMail: { text: 'High (cost-prohibitive)', status: 'plain' },
       royalMail: { text: 'High + long lead times', status: 'plain' },
     },
     {
       feature: 'CRM & client tools for agencies',
-      marketize: { text: 'Full CRM, free', status: 'check' },
+      realreach: { text: 'Full CRM, free', status: 'check' },
       traditional: { text: '', status: 'cross' },
       directMail: { text: '', status: 'cross' },
       royalMail: { text: '', status: 'cross' },
     },
     {
       feature: 'Cost per 1,000 homes',
-      marketize: { text: 'Market-competitive', status: 'check' },
+      realreach: { text: 'Market-competitive', status: 'check' },
       traditional: { text: 'Higher', status: 'plain' },
       directMail: { text: 'Significantly higher', status: 'plain' },
       royalMail: { text: 'Highest', status: 'plain' },
     },
     {
       feature: 'Campaign cancellation risk',
-      marketize: { text: 'Very low', status: 'check' },
+      realreach: { text: 'Very low', status: 'check' },
       traditional: { text: 'Low–medium', status: 'plain' },
       directMail: { text: 'Medium', status: 'plain' },
       royalMail: { text: 'High (internal constraints)', status: 'plain' },
@@ -92,7 +92,7 @@ export const ComparisonTable: React.FC = () => {
             How we stack up
           </h2>
           <p className="card-subtext max-w-md mx-auto">
-            See exactly what sets Marketize apart from traditional distribution companies, direct mail, and traditional postal drops.
+            See exactly what sets Realreach apart from traditional distribution companies, direct mail, and traditional postal drops.
           </p>
         </div>
 
@@ -105,7 +105,7 @@ export const ComparisonTable: React.FC = () => {
                     Features
                   </th>
                   <th className="p-3 sm:p-5 text-sm sm:text-[18px] leading-[27px] font-medium tracking-normal text-red-500 bg-[#FF22290F] text-center w-36 sm:w-44 border-t border-l border-r border-red-300 rounded-t-xl">
-                    Marketize
+                    Realreach
                   </th>
                   <th className="p-3 sm:p-5 text-sm sm:text-[18px] leading-[27px] font-medium tracking-normal text-gray-600 text-center w-36 sm:w-44">
                     Traditional Distribution
@@ -127,7 +127,7 @@ export const ComparisonTable: React.FC = () => {
                         {row.feature}
                       </td>
 
-                      {/* Marketize column */}
+                      {/* Realreach column */}
                       <td
                         className={`p-3 sm:p-5 text-center border-l border-r border-red-300 transition-colors bg-[#FF22290F] group-hover:bg-red-100/60 ${
                           isLast ? 'border-b-2 border-red-300 rounded-b-xl' : 'border-t border-red-200'
@@ -135,7 +135,7 @@ export const ComparisonTable: React.FC = () => {
                       >
                         <span className="text-xs sm:text-sm text-gray-800 font-medium inline-flex items-center justify-center">
                           <span className="text-green-600 mr-1 font-bold">✓</span>
-                          {row.marketize.text}
+                          {row.realreach.text}
                         </span>
                       </td>
 

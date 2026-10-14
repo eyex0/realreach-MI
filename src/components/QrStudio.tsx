@@ -8,7 +8,7 @@ export const QrStudio: React.FC = () => {
   const [copied, setCopied] = useState<boolean>(false);
   const [downloadSuccess, setDownloadSuccess] = useState<boolean>(false);
 
-  const fullTrackingUrl = `${targetUrl}?utm_source=marketize_door_drop&utm_campaign=${encodeURIComponent(
+  const fullTrackingUrl = `${targetUrl}?utm_source=realreach_door_drop&utm_campaign=${encodeURIComponent(
     campaignCode
   )}&utm_medium=leaflet&sector=${encodeURIComponent(selectedSector.split(' ')[0])}`;
 
@@ -34,7 +34,7 @@ export const QrStudio: React.FC = () => {
             QR Code Studio & Physical-to-Digital Attribution
           </h2>
           <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
-            Turn offline door-drops into measurable digital funnels. Marketize automatically generates unique, high-resolution QR codes tagged to specific CAP sectors, giving you real-time scan metrics, conversion rates, and ROI by street.
+            Turn offline door-drops into measurable digital funnels. Realreach automatically generates unique, high-resolution QR codes tagged to specific CAP sectors, giving you real-time scan metrics, conversion rates, and ROI by street.
           </p>
         </div>
 

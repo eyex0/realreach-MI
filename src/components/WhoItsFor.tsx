@@ -31,7 +31,7 @@ export const WhoItsFor: React.FC<WhoItsForProps> = ({ onSelectRole }) => {
                 Businesses &amp; Clients
               </p>
               <p className="card-subtext leading-relaxed">
-                Whether you're a local takeaway, a trades company, a gym, a real estate agent, or a national brand - Marketize gives you accountable, affordable, measurable leaflet marketing.
+                Whether you're a local takeaway, a trades company, a gym, a real estate agent, or a national brand - Realreach gives you accountable, affordable, measurable leaflet marketing.
               </p>
             </div>
             <ul className="space-y-2 mt-auto">
@@ -117,7 +117,7 @@ export const WhoItsFor: React.FC<WhoItsForProps> = ({ onSelectRole }) => {
             <ul className="space-y-2 mt-auto">
               <li className="flex items-start gap-2 card-subtext leading-relaxed">
                 <span className="mt-2 w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0"></span>
-                Full CRM for all clients — on and off Marketize
+                Full CRM for all clients — on and off Realreach
               </li>
               <li className="flex items-start gap-2 card-subtext leading-relaxed">
                 <span className="mt-2 w-1.5 h-1.5 rounded-full bg-red-500 flex-shrink-0"></span>

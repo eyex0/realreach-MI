@@ -29,7 +29,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-5 border-b border-gray-100 bg-gray-50/50">
           <div>
-            <h2 className="text-xl font-bold text-gray-900">Contact Marketize</h2>
+            <h2 className="text-xl font-bold text-gray-900">Contact Realreach</h2>
             <p className="text-xs text-gray-500">We respond to all campaign enquiries within 2 business hours</p>
           </div>
           <button

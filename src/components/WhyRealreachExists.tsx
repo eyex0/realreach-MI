@@ -1,12 +1,12 @@
 import React from 'react';
 
-export const WhyMarketizeExists: React.FC = () => {
+export const WhyRealreachExists: React.FC = () => {
   return (
     <section className="sm:py-12 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-12 lg:mb-16">
           <span className="text-red-500 badge-text bg-red-50 px-3 py-1 rounded-full mb-4 inline-block">
-            Why Marketize Exists
+            Why Realreach Exists
           </span>
           <h2 className="section-heading mt-3 max-w-3xl mx-auto !text-2xl sm:!text-4xl lg:!text-5xl !leading-tight text-gray-900">
             Leaflet distribution has a decades-long trust problem. We fixed it.
@@ -77,10 +77,10 @@ export const WhyMarketizeExists: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Column: Marketize solves this */}
+          {/* Right Column: Realreach solves this */}
           <div className="bg-gray-100 rounded-2xl p-8">
             <span className="inline-block bg-red-500 text-white badge-text px-4 py-1.5 rounded-full mb-4">
-              Marketize solves this
+              Realreach solves this
             </span>
             <p className="card-header mb-6 text-gray-900">One platform. Every problem addressed.</p>
             <div className="space-y-5">
@@ -116,7 +116,7 @@ export const WhyMarketizeExists: React.FC = () => {
                 </div>
                 <div>
                   <p className="home-card-text-sm text-gray-900">Independent dispute resolution</p>
-                  <p className="card-subtext">Marketize reviews GPS data, photos, and logs as a neutral third party.</p>
+                  <p className="card-subtext">Realreach reviews GPS data, photos, and logs as a neutral third party.</p>
                 </div>
               </div>
 

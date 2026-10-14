@@ -126,7 +126,7 @@ export const BecomeDistributor: React.FC<BecomeDistributorProps> = ({ onOpenDist
             <div className="rounded-2xl overflow-hidden border border-slate-200 bg-white shadow-xl relative">
               <img
                 src="/images/home/who-its-for/person.svg"
-                alt="Marketize verified delivery professional"
+                alt="Realreach verified delivery professional"
                 className="w-full h-80 sm:h-96 lg:h-[480px] object-cover"
                 referrerPolicy="no-referrer"
               />
@@ -138,7 +138,7 @@ export const BecomeDistributor: React.FC<BecomeDistributorProps> = ({ onOpenDist
                   <span>No Registration Fees · No Hidden Cuts</span>
                 </div>
                 <p className="text-slate-600 leading-relaxed text-[11px]">
-                  Marketize charges clients a transparent 7.5% verification fee. You receive 100% of your agreed delivery rate directly into your bank via Stripe.
+                  Realreach charges clients a transparent 7.5% verification fee. You receive 100% of your agreed delivery rate directly into your bank via Stripe.
                 </p>
               </div>
             </div>

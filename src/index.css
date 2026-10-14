@@ -76,36 +76,36 @@
   background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 55%);
 }
 
-@keyframes marketize-fade-in-up {
+@keyframes realreach-fade-in-up {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes marketize-expand-down {
+@keyframes realreach-expand-down {
   from { max-height: 0; opacity: 0; transform: translateY(-10px); }
   to { max-height: 500px; opacity: 1; transform: translateY(0); }
 }
 
-@keyframes marketize-drawer-in {
+@keyframes realreach-drawer-in {
   from { opacity: 0; transform: translateY(-4px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-.marketize-fade-up {
-  animation: marketize-fade-in-up 0.6s ease-out backwards;
+.realreach-fade-up {
+  animation: realreach-fade-in-up 0.6s ease-out backwards;
   animation-delay: var(--motion-delay, 0ms);
 }
 
-.marketize-expand-down { animation: marketize-expand-down 0.3s ease-out; }
-.marketize-mobile-drawer {
-  animation: marketize-drawer-in 0.3s ease-out;
+.realreach-expand-down { animation: realreach-expand-down 0.3s ease-out; }
+.realreach-mobile-drawer {
+  animation: realreach-drawer-in 0.3s ease-out;
   transform-origin: top center;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .marketize-fade-up,
-  .marketize-expand-down,
-  .marketize-mobile-drawer { animation: none; }
+  .realreach-fade-up,
+  .realreach-expand-down,
+  .realreach-mobile-drawer { animation: none; }
 }
 
 /* Custom scrollbar */

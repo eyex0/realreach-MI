@@ -38,7 +38,10 @@ export const Navbar: React.FC<NavbarProps> = ({
               onClick={(e) => handleLinkClick(e, 'home')}
               className="flex flex-shrink-0 items-center gap-2"
             >
-              <img src="/images/Logo.png" alt="Marketize Logo" className="h-[36px] w-auto object-contain" />
+              <span className="flex items-center gap-2" aria-label="Realreach Logo">
+                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-red-500 text-lg font-black text-white shadow-sm">R</span>
+                <span className="text-[22px] font-extrabold tracking-[-0.04em] text-gray-900">Real<span className="text-red-500">reach</span></span>
+              </span>
             </a>
             <div className="hidden items-center gap-6 lg:flex">
               <a
@@ -208,7 +211,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="marketize-mobile-drawer lg:hidden fixed inset-x-0 top-16 bg-white border-b border-gray-200 px-5 py-6 space-y-4 shadow-xl z-50">
+        <div className="realreach-mobile-drawer lg:hidden fixed inset-x-0 top-16 bg-white border-b border-gray-200 px-5 py-6 space-y-4 shadow-xl z-50">
           <div className="flex flex-col space-y-3 text-sm font-medium text-gray-800">
             <a
               href="#home"
